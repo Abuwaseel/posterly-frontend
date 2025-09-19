@@ -21,7 +21,7 @@ function App() {
 
   const generatePoster = async () => {
     try {
-      const response = await fetch('http://localhost:8000/generate-poster', {
+      const response = await fetch('https://posterly-backend.workers.dev/generate-poster', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
